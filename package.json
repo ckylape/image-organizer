@@ -1,0 +1,29 @@
+{
+  "name": "organize-images",
+  "version": "0.1.0",
+  "description": "This will rename and organize images based on their exif data. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg index.js -t node12-win-x64 --output dist/organize-images.exe"
+  },
+  "keywords": [
+    "image",
+    "exif",
+    "organize",
+    "rename",
+    "images"
+  ],
+  "author": "Koury Lape",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "exif": "^0.6.0",
+    "globby": "^11.0.0",
+    "got": "^11.1.0",
+    "slash": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "minimist": "^1.2.5",
+    "moment": "^2.24.0"
+  }
+}
